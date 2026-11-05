@@ -1,1 +1,220 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Lab Assignments | BCS352</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #172033;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: #172033;
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        .lab-grid {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(220px, 1fr)
+            );
+            gap: 18px;
+        }
+
+        .lab-card {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            text-decoration: none;
+            color: #172033;
+            transition: 0.2s ease;
+        }
+
+        .lab-card:hover {
+            transform: translateY(-4px);
+            border-color: #64748b;
+            box-shadow: 0 8px 20px #0000000d;
+        }
+
+        .lab-number {
+            color: #64748b;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .lab-card h3 {
+            margin: 8px 0;
+            font-size: 18px;
+        }
+
+        .lab-card p {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="hero">
+        <p>INVERTIS UNIVERSITY</p>
+        <h1>HTML & CSS Lab Assignments</h1>
+        <p>BCS352 | B.Tech Computer Science & Engineering</p>
+        <p>Explore all 15 practical assignments below.</p>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Explore All Labs</h2>
+
+        <div class="lab-grid">
+
+            <a href="./Lab1/index.html" class="lab-card">
+                <span class="lab-number">LAB 01</span>
+                <h3>Starting a Git Repository</h3>
+                <p>Learn Git repository basics.</p>
+            </a>
+
+            <a href="./Lab2/index.html" class="lab-card">
+                <span class="lab-number">LAB 02</span>
+                <h3>Pushing and Cloning</h3>
+                <p>Work with remote repositories.</p>
+            </a>
+
+            <a href="./Lab3/index.html" class="lab-card">
+                <span class="lab-number">LAB 03</span>
+                <h3>Your First HTML Page</h3>
+                <p>Create your first webpage.</p>
+            </a>
+
+            <a href="./Lab4/index.html" class="lab-card">
+                <span class="lab-number">LAB 04</span>
+                <h3>Divs and Attributes</h3>
+                <p>Understand HTML elements and attributes.</p>
+            </a>
+
+            <a href="./Lab5/index.html" class="lab-card">
+                <span class="lab-number">LAB 05</span>
+                <h3>Links and Images</h3>
+                <p>Add links and images to webpages.</p>
+            </a>
+
+            <a href="./Lab6/index.html" class="lab-card">
+                <span class="lab-number">LAB 06</span>
+                <h3>HTML Lists</h3>
+                <p>Explore different types of lists.</p>
+            </a>
+
+            <a href="./Lab7/index.html" class="lab-card">
+                <span class="lab-number">LAB 07</span>
+                <h3>About Me Page</h3>
+                <p>Build a personal webpage.</p>
+            </a>
+
+            <a href="./Lab8/index.html" class="lab-card">
+                <span class="lab-number">LAB 08</span>
+                <h3>Sign-Up Forms</h3>
+                <p>Create forms and input choices.</p>
+            </a>
+
+            <a href="./Lab9/index.html" class="lab-card">
+                <span class="lab-number">LAB 09</span>
+                <h3>HTML Tables</h3>
+                <p>Build tables with headers and footers.</p>
+            </a>
+
+            <a href="./Lab10/index.html" class="lab-card">
+                <span class="lab-number">LAB 10</span>
+                <h3>CSS Fundamentals</h3>
+                <p>Learn the basics of CSS styling.</p>
+            </a>
+
+            <a href="./Lab11/index.html" class="lab-card">
+                <span class="lab-number">LAB 11</span>
+                <h3>Units and CSS Variables</h3>
+                <p>Use CSS units and custom properties.</p>
+            </a>
+
+            <a href="./Lab12/index.html" class="lab-card">
+                <span class="lab-number">LAB 12</span>
+                <h3>Box Model and Cards</h3>
+                <p>Understand spacing and overflow.</p>
+            </a>
+
+            <a href="./Lab13/index.html" class="lab-card">
+                <span class="lab-number">LAB 13</span>
+                <h3>Flexbox Layouts</h3>
+                <p>Create flexible page layouts.</p>
+            </a>
+
+            <a href="./Lab14/index.html" class="lab-card">
+                <span class="lab-number">LAB 14</span>
+                <h3>CSS Grid Layouts</h3>
+                <p>Build layouts using CSS Grid.</p>
+            </a>
+
+            <a href="./Lab15/index.html" class="lab-card">
+                <span class="lab-number">LAB 15</span>
+                <h3>Responsive Pages</h3>
+                <p>Make webpages responsive.</p>
+            </a>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>HTML & CSS Introduction Lab | BCS352</p>
+        <p>Developed by Krishu Kumar</p>
+    </footer>
+
+</body>
+</html>
