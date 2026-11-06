@@ -1,117 +1,100 @@
-# HTML & CSS Lab Assignments – BCS352
+# HTML & CSS Lab Assignments – Semester 3
 
-A collection of 15 practical assignments completed as part of the **HTML and CSS Introduction Lab (BCS352)** at Invertis University.
+A collection of HTML and CSS practical assignments completed as part of the B.Tech Computer Science and Engineering curriculum at Invertis University.
 
-The repository covers the fundamentals of HTML, CSS, Git, webpage structure, layouts, and responsive web design.
+<p align="center">
+  <a href="https://kkrishu.github.io/HTML_CSS_Assignment_Sem_3/">
+    <strong>🚀 View Live Dashboard</strong>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/kkrishu/HTML_CSS_Assignment_Sem_3">
+    <strong>View Repository</strong>
+  </a>
+</p>
 
-## Student Information
+---
 
-- **Name:** Krishu Kumar
-- **Course:** B.Tech – Computer Science and Engineering
-- **Semester:** 3rd Semester
-- **Subject:** HTML and CSS Introduction Lab
-- **Subject Code:** BCS352
-- **University:** Invertis University, Bareilly
+## About
 
-## Project Homepage
+This repository contains 15 lab assignments for the HTML and CSS Introduction Lab (BCS352).
 
-The repository includes a main `index.html` dashboard that provides access to all 15 lab assignments.
+Each lab is organized into a separate folder containing its practical work, source files, and output screenshots where applicable.
 
-- Open the root `index.html` to explore the lab dashboard.
-- Select any lab card to open its individual assignment.
-- Each lab has its own `index.html` and `README.md`.
+The assignments cover Git basics, HTML document structure, elements, attributes, links, images, lists, forms, tables, and CSS layout and responsive design.
 
 ## Lab Assignments
 
-| Lab No. | Assignment | Topics Covered |
-|---|---|---|
-| 01 | Starting a Git Repository | Git initialization and repository basics |
-| 02 | Pushing and Cloning a Repository | Remote repositories, push and clone |
-| 03 | Your First HTML Page | HTML document structure and text elements |
-| 04 | Divs, Attributes and a Small Fix | Div elements and HTML attributes |
-| 05 | Links and Images | Anchor tags and images |
-| 06 | Types of HTML Lists | Ordered, unordered and description lists |
-| 07 | About Me Page | Semantic HTML and page structure |
-| 08 | Sign-Up Forms and Choices | Forms, inputs, radio buttons and dropdowns |
-| 09 | Tables with Headers and Footers | HTML tables and accessibility |
-| 10 | CSS Fundamentals | CSS selectors and styling |
-| 11 | Units and CSS Variables | CSS units and custom properties |
-| 12 | Box Model, Cards and Scrolling | Box model, cards and overflow |
-| 13 | Flexbox Layouts | Flexible layouts and alignment |
-| 14 | CSS Grid Layouts | Grid columns, galleries and grid areas |
-| 15 | Responsive Pages with Media Queries | Responsive layouts and media queries |
+| No. | Lab Assignment | Topic |
+|:---:|---|---|
+| 01 | Starting a Git Repository | Git Basics |
+| 02 | Pushing and Cloning | Remote Repositories |
+| 03 | Your First HTML Page | HTML Fundamentals |
+| 04 | Divs and Attributes | HTML Elements |
+| 05 | Links and Images | HTML Media and Links |
+| 06 | HTML Lists | Ordered and Unordered Lists |
+| 07 | About Me Page | HTML Page Structure |
+| 08 | Sign-Up Forms | HTML Forms |
+| 09 | HTML Tables | Tabular Data |
+| 10 | CSS Fundamentals | CSS Basics |
+| 11 | Units and CSS Variables | CSS Values and Variables |
+| 12 | Box Model and Cards | CSS Box Model |
+| 13 | Flexbox Layouts | CSS Flexbox |
+| 14 | CSS Grid Layouts | CSS Grid |
+| 15 | Responsive Pages | Responsive Web Design |
 
 ## Repository Structure
 
 ```text
 HTML_CSS_Assignment_Sem_3/
 │
-├── index.html
-├── README.md
-│
 ├── Lab1/
 │   ├── index.html
 │   └── README.md
 │
 ├── Lab2/
-│   ├── index.html
-│   └── README.md
-│
 ├── Lab3/
-│   ├── index.html
-│   ├── README.md
-│   └── style.css
-│
 ├── ...
+├── Lab15/
 │
-└── Lab15/
-    ├── index.html
-    ├── README.md
-    ├── style.css
-    └── images/
+├── index.html
+└── README.md
 ```
 
-Each lab folder contains its practical HTML/CSS files, an individual README, and supporting resources where required.
+- Each lab has its own dedicated folder.
+- Each lab includes its practical files and documentation.
+- The root `index.html` provides a central dashboard to navigate all 15 labs.
 
-## Technologies Used
+## Technologies & Tools
 
 - HTML5
 - CSS3
+- Visual Studio Code
+- Google Chrome
 - Git
 - GitHub
-- Visual Studio Code
+- GitHub Pages
 
-## How to Run
+## Accessing the Practicals
 
-1. Clone the repository:
+You can explore the assignments in two ways:
 
-   ```bash
-   git clone <repository-url>
-   ```
+1. **Live Dashboard:** Visit the [HTML & CSS Lab Dashboard](https://kkrishu.github.io/HTML_CSS_Assignment_Sem_3/) to navigate through all 15 labs directly in your browser.
+2. **Source Code:** Browse the individual lab folders in this repository to view the HTML and CSS source files.
 
-2. Open the project folder:
+## Course Information
 
-   ```bash
-   cd HTML_CSS_Assignment_Sem_3
-   ```
-
-3. Open the root `index.html` file in your browser.
-
-4. Select any lab from the homepage to explore its practical work.
-
-## Learning Objectives
-
-- Understand the fundamentals of HTML and CSS.
-- Create structured webpages using HTML5.
-- Apply styling using CSS3.
-- Work with forms, tables, lists, and images.
-- Build layouts using Flexbox and CSS Grid.
-- Implement responsive designs using media queries.
-- Learn basic Git and GitHub workflows.
+| Detail | Information |
+|---|---|
+| Course | HTML and CSS Introduction Lab |
+| Course Code | BCS352 |
+| Semester | 3 |
+| Program | B.Tech – Computer Science and Engineering |
+| University | Invertis University |
 
 ---
 
-**Developed and maintained by Krishu Kumar**
-
-B.Tech – Computer Science and Engineering  
-Invertis University, Bareilly
+<p align="center">
+  <strong>HTML & CSS Introduction Lab · Semester 3</strong>
+  <br>
+  <sub>Learning web development through practical implementation.</sub>
+</p>
